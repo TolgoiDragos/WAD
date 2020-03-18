@@ -1,0 +1,380 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right:0px;
+    margin-left:0px;
+    background-size:auto;
+}
+
+
+.w-100 {
+    width: 1000px;
+    height:84vh;
+}
+
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1920px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 1960px; 
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 1720px; 
+    }
+}
+@media (min-width: 576px) {
+    .container {
+        max-width: 1920px;
+    }
+}
+
+
+
+//Contact
+
+.container-Maps {
+  
+}
+
+.mapouter {
+  
+}
+
+.gmap_canvas {
+    padding-left: 35vh;
+    height: 30vw;
+    width: 60vw;
+}
+
+.iframe20 {
+    width: 60vw;
+    height: 30vw;
+}
+
+.iframeForm {
+    width: 50vw;
+    height: 52vw;
+}
+
+.container-form {
+    position: relative;
+    margin-top: 11vw;
+    margin-left: 25vw;
+    margin-right: 33vw;
+}
+.some-page-wrapper {
+    margin: 15px;
+    margin-top: 9vw;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+vl {
+    padding-left: 20px;
+    border-left: 1px solid;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 50px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-width: 1px;
+}
+p {
+    margin: 1em 0;
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    .card-img-top
+{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+    .card-img-top {
+        width: 100%;
+        height: 40vw;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card-body {
+        padding: 0.5rem;
+    }
+
+    .card-title {
+        margin-bottom: 0px;
+    }
+}
+
+.card-deck {
+    margin-top: 50px;
+}
+
+.card{
+    margin:2vh;
+}
+
+.Login {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    margin-top:18vh;
+}
+
+.btn btn-primary {
+    width: 80%;
+    display: table;
+    margin: 0 auto;
+}
+.Privacy {
+    box-sizing: content-box;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    border: 5px solid grey;
+    width: 60%;
+    margin: auto;
+}
+
+
+
+.nav-link:hover{
+    color:red
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Hotels
+
+@media (min-width: 768px) {
+    /* show 3 items */
+    .carousel-inner .active, .carousel-inner .active + .carousel-item, .carousel-inner .active + .carousel-item + .carousel-item
+
+{
+    display: block;
+}
+
+.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+    transition: none;
+}
+
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+}
+
+.carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+    position: absolute;
+    top: 0;
+    right: -33.3333%;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+}
+
+/* left or forward direction */
+.active.carousel-item-left + .carousel-item-next.carousel-item-left,
+.carousel-item-next.carousel-item-left + .carousel-item,
+.carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+.carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+}
+
+/* farthest right hidden item must be abso position for animations */
+.carousel-inner .carousel-item-prev.carousel-item-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: block;
+    visibility: visible;
+}
+
+/* right or prev direction */
+.active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+.carousel-item-prev.carousel-item-right + .carousel-item,
+.carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+.carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+    position: relative;
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+    display: block;
+    visibility: visible;
+}
+}
+.card-body{
+    text-align:center;
+}
+
+
+
+
+
+
+
+.subheading-sm {
+    margin-bottom: 30px;
+    color: #999999;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    position: relative;
+    display: inline-block;
+    font-weight: 300;
+}
+
+
+
+
+.section-heading .subheading-sm:after {
+    width: 80px;
+    height: 2px;
+    background: #999999;
+    position: absolute;
+    left: 120%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    content: "";
+}
+
+
+.section-heading .heading {
+    font-size: 50px;
+    line-height: 1.2;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+
+.block-6 .media-body .heading {
+    font-size: 20px;
+}
+
+.block-6 .media-body p {
+    font-size: 16px;
+}

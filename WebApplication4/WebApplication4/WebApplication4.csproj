@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\NewFolder\**" />
+    <Content Remove="wwwroot\NewFolder\**" />
+    <EmbeddedResource Remove="wwwroot\NewFolder\**" />
+    <None Remove="wwwroot\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\Earth.cs" />
+    <Compile Remove="Pages\Index1.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\Index1.cshtml" />
+    <Content Remove="wwwroot\css\animate.css" />
+    <Content Remove="wwwroot\css\aos.css" />
+    <Content Remove="wwwroot\css\bootstrap-datepicker.css" />
+    <Content Remove="wwwroot\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\css\flaticon.css" />
+    <Content Remove="wwwroot\css\icomoon.css" />
+    <Content Remove="wwwroot\css\ionicons.min.css" />
+    <Content Remove="wwwroot\css\jquery.timepicker.css" />
+    <Content Remove="wwwroot\css\magnific-popup.css" />
+    <Content Remove="wwwroot\css\open-iconic-bootstrap.min.css" />
+    <Content Remove="wwwroot\css\owl.carousel.min.css" />
+    <Content Remove="wwwroot\css\owl.theme.default.min.css" />
+    <Content Remove="wwwroot\css\style.css" />
+    <Content Remove="wwwroot\download.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\NewFolder1\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
+  </ItemGroup>
+
+
+
+</Project>
